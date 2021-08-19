@@ -1,8 +1,7 @@
 
-"devweb" : "nodemon src/app.js -e js,hbs"
 
 
-port no 3000
+
 
 using cmd : npm run webdev
 
@@ -16,7 +15,7 @@ server is running at port no:3000
 go to web brows type : localhost:3000
 
 -------------------------
-----------------------------------------------------------------
+--------------------- how to make -------------------------------------------
 1.create a package.json using this command :  npm init -y
 
 2.install a node_modules : npm i express
@@ -34,3 +33,18 @@ go to web brows type : localhost:3000
 8.create a app.js file
 
 ----------------------------------------------------
+
+9. open package.json file &  go to script section  like this: 
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+  },
+  
+  create a conection :
+  
+    "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+  ====>  "devweb" : "nodemon src/app.js -e js,hbs" 
+  },
+  
+  
